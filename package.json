@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://necheporenko.github.io/GlobalLogic",
   "dependencies": {
+    "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -18,7 +19,7 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"
